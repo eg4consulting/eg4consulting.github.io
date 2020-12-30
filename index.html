@@ -8,11 +8,425 @@
     <meta name="description" content="EG4 consultation - Vos experts pour réaliser la transition énergétique vers une société bas carbone.">
     <link rel="icon" href="images/favicon.png">
 
+    <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-   
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand jumplinks" href="#accueil">
+                <img src="images/eg4-logo.png" width="102" height="69" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expandNav"
+                aria-controls="expandNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="expandNav">
+                <div class="navbar-nav">
+                    <a class="nav-link jumplinks" href="#services">Services</a>
+                    <a class="nav-link jumplinks" href="#propos">À propos</a>
+                    <a class="nav-link jumplinks" href="#equipe">L'équipe</a>
+                    <a class="nav-link jumplinks" href="#contact">Contactez-nous</a>
+                </div>
+                <a class="nav-link" href="#contact">En</a>
+            </div>
+    </nav>
+    <div class="container-fluid body-container" id="accueil">
+
+        <div class="container homepage-container" data-aos="fade-right">
+            <div class="row no-gutters col-lg-8">
+                <h1 id="headline">Vos experts pour réaliser la <span class="light-green">transition énergétique</span>
+                    vers une société <span class="light-green">bas carbone</span> </h1>
+            </div>
+            <div class="row no-gutters col-lg-7" id="subheadline">
+                <p>EG4 est un regroupement d’experts internationaux qui travaille étroitement avec les acteurs de la
+                    transition énergétique. Le partenaire de choix dans la réconciliation des méthodes de production et
+                    de
+                    distribution visant la réduction de la pollution et des gaz à effet de serre (GES).
+                </p>
+                <a class="btn-outline-custom jumplinks" href="#services"> en savoir
+                        plus</a>
+            </div>
+        </div>
+
+        <div class="container-fluid homepage-image" data-aos="fade-left">
+            <div class="row justify-content-end">
+                <div class="col-md-12 col-lg-6">
+                    <img class="img-fluid" src="images/illustration-homepage.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-services" id="services">
+            <div class="row justify-content-around">
+                <div class="col-lg-3 text-center services-cards" data-aos="fade-up">
+                    <img class="img-fluid" src="images/services-icon-developp.png" alt="">
+                    <h3 class="services-titles">Développer</h3>
+                    <p>Développeurs de projets pour la transition énergétique (automobiles BEV, RenNG, FCEV, camions
+                        BEV, RenNG, FCEV, bus zéro-émissions) et son acceptation.
+                    </p>
+                </div>
+                <div class="col-lg-3 text-center services-cards" data-aos="fade-up">
+                    <img class="img-fluid" src="images/services-icon-awareness.png" alt="">
+                    <h3 class="services-titles">Sensibiliser</h3>
+                    <p>Réalisateurs de campagnes de sensibilisation, de formations courtes et spécifiques, et
+                        d’acceptation sociétale.
+                    </p>
+                </div>
+                <div class="col-lg-3 text-center services-cards" data-aos="fade-up">
+                    <img class="img-fluid" src="images/services-icon-support.png" alt="">
+                    <h3 class="services-titles">Supporter</h3>
+                    <p>Support pour projets sur les énergies renouvelables (Biogaz, Hydrogène vert et Géothermie)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-why-us" id="propos">
+            <div class="row">
+                <div class="col-lg-6 align-self-center" data-aos="fade-right"><img class="img-fluid"
+                        src="images/illustration-truck-why-us.png" alt=""></div>
+                <div class="col-lg-6">
+                    <h2 data-aos="fade-left" data-aos-duration="800">Pourquoi travailler avec EG4?</h2>
+                    <div class="container">
+                        <div class="row" data-aos="fade-left">
+                            <div class="col-sm-3 col-md-2 col-lg-2 align-self-center numbers">
+                                <img class="img-fluid" src="images/1-numbers.png" alt="">
+                            </div>
+                            <div class="col-sm-9 col-md-10 col-lg-10 reasons-why">
+                                <h3 class="why-titles">Nous sommes engagés</h3>
+                                <p>Nous sommes engagés à supporter les développements technologiques (recherche de
+                                    financement, crédits à la recherche, zone d’innovation) visant à réaliser la
+                                    transition énergétique.</p>
+                            </div>
+                        </div>
+                        <div class="row" data-aos="fade-left">
+                            <div class="col-sm-3 col-md-2 col-lg-2 align-self-center numbers">
+                                <img class="img-fluid" src="images/2-numbers.png" alt="">
+                            </div>
+                            <div class="col-sm-9 col-md-10 col-lg-10 reasons-why">
+                                <h3 class="why-titles">Nous avons de l’expérience</h3>
+                                <p>Nous possédons plus de 70 ans d’expérience en réduction de GES dans le transport et
+                                    en réduction de GES dans les procédés industriels.</p>
+                            </div>
+                        </div>
+                        <div class="row" data-aos="fade-left">
+                            <div class=" col-sm-3 col-md-2 col-md-2 col-lg-2 align-self-center numbers">
+                                <img class="img-fluid" src="images/3-numbers.png" alt="">
+                            </div>
+                            <div class="col-sm-9 col-md-10 col-lg-10 reasons-why">
+                                <h3 class="why-titles">Nous voulons des changements</h3>
+                                <p>Notre volonté est d’adresser, à court terme, la problématique de santé publique en
+                                    supportant des solutions industrielles de mobilité propre non polluantes et à moyen
+                                    terme de lutter contre le réchauffement climatique en favorisant des solutions de
+                                    mobilité sans émissions de CO2.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container container-team">
+            <div class="row">
+                <div class="col-lg-9 intro-team" id="equipe" data-aos="fade-right">
+                    <h2>L'équipe</h2>
+                    <p>Notre équipe se compose de gestionnaires aguerris ayant oeuvrés de nombreuses années dans le
+                        domaine des gaz industriels avec une forte implication dans les énergies propres et l’hydrogène.
+                        Nous avons été grandement impliqués au niveau du développement, de la fabrication, de
+                        l’ouverture de nouveaux marchés et des ventes associées. </p>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-lg-4 ">
+                    <div class="team-cards" data-aos="fade-up">
+                        <div class="profile">
+                            <img class="img-fluid mx-auto d-block" src="images/pierre-photo.jpg" alt="">
+                            <h3 class="team-names text-center">Pierre A. Gauthier</h3>
+                            <p class="team-titles text-center">Président et Associé de EG4 Inc.</p>
+                            <hr>
+                        </div>
+                        <h4>Éducation</h4>
+                        <p class="bios text-left">Formation en Commerce de l’Université Concordia et une en Gestion de
+                            l’Université McGill </p>
+                        <h4>Expériences professionnelles</h4>
+                        <ul>
+                            <li class="bios">Industrie pétrolière de 1975 à 1980</li>
+                            <li class="bios">Industrie des gaz industriels de 1980 à 2014</li>
+                            <li class="bios">Experts en énergie renouvelable 2014- aujourd’hui. </li>
+                            <li class="bios">Développement Mobilité propre Biométhane en Europe - Direction commerciale
+                            </li>
+                            <li class="bios">Pilote de plusieurs développements en technologies avancées pour le compte
+                                d’une
+                                multinationale des gaz de l’air.</li>
+                        </ul>
+
+                        <p class="bios">
+
+                            Très impliqué dans le secteur de l’hydrogène énergie, des pîles à combustible et du bio
+                            méthane, il sera responsable de plusieurs premières mondiales. Il participera comme copilote
+                            du World Hydrogen Energy Council (WHEC) de 2012 à Toronto et il agit comme expert pour le
+                            World Hydrogen Technological Conference (WHTC) qui aura lieu en juin 2021 à Montréal.
+
+
+                        </p>
+                        <button type="button" class="btn btn-long-bio" data-toggle="modal" data-target="#pierreBio">en
+                            savoir plus ></button>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-cards" data-aos="fade-up">
+                        <img class="img-fluid mx-auto d-block" src="images/luc-photo.jpg" alt="">
+                        <h3 class="team-names text-center">Luc Vandewalle</h3>
+                        <p class="team-titles text-center">Associé de EG4 Inc.</p>
+                        <hr>
+                        <h4>Éducation</h4>
+                        <p class="bios text-left">Ingénieur chimiste <br> DEA Chimie Physique </p>
+                        <h4>Expériences professionnelles</h4>
+                        <p class="bios-company">Formica Corporation</p>
+
+                        <ul>
+                            <li class="bios">Directions Industrielles et Supply Chain Europe – Direction générale Centre
+                                Europe </li>
+
+                        </ul>
+
+                        <p class="bios-company">Groupe Air Liquide</p>
+
+                        <ul>
+                            <li class="bios">Direction Achats et Logistique - Déploiement d’une organisation Supply
+                                Chain Corporate </li>
+                            <li class="bios">Développement de la mobilité Hydrogène en Europe</li>
+                            <li class="bios">Directeur Général d’ une “Joint-Venture” crée entre Air Liquide (France) et
+                                Plug Power Inc.(US) </li>
+                            <li class="bios">Développement Mobilité propre Biométhane en Europe - Direction commerciale
+                            </li>
+                            <li class="bios">Développement Réseau de stations Multi énergies (France) dédiée au
+                                Transport de Marchandises </li>
+                        </ul>
+
+
+                        <button type="button" class="btn btn-long-bio" data-toggle="modal" data-target="#lucBio">en
+                            savoir plus ></button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-cards" data-aos="fade-up">
+                        <img class="img-fluid mx-auto d-block" src="images/yves-photo.jpg" alt="">
+                        <h3 class="team-names text-center">Yves Morin</h3>
+                        <p class="team-titles text-center">Associé de EG4 Inc.</p>
+                        <hr>
+                        <h4>Éducation</h4>
+                        <p class="bios text-left">Baccalauréat en Gestion (B. Gest.) <br>HEC Montréal </p>
+                        <h4>Expériences professionnelles</h4>
+                        <p class="bios-company">Air Liquide Canada</p>
+
+                        <ul>
+                            <li class="bios">Direction d’usine (fils et électrodes de soudage)</li>
+                            <li class="bios">Gestion de personnel</li>
+                            <li class="bios">Approvisionnements</li>
+                            <li class="bios">Logistique</li>
+                            <li class="bios">Maintenance</li>
+                            <li class="bios">Négociation de convention collective</li>
+                            <li class="bios">Industrie 4.0</li>
+                            <li class="bios">Intelligence artificielles (IA) (inspection par vision)</li>
+                            <li class="bios">Reconnu Spécialiste Air Liquide Canada en 1993 pour ses compétences et sa
+                                compréhension de
+                                l’entreprise</li>
+                            <li class="bios"> Mentor pour la direction de Lincoln Electric lors de l’achat des usines de
+                                soudage du groupe
+                                Air Liquide</li>
+                        </ul>
+
+
+
+                        <button type="button" class="btn btn-long-bio" data-toggle="modal" data-target="#yvesBio">en
+                            savoir plus ></button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal fade" id="pierreBio" tabindex="-1" aria-labelledby="pierreBio" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Pierre A. Gauthier - Président et Associé de EG4 Inc.</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>Formé à l’Université Concordia à Montréal en Commerce avec plusieurs séjours
+                                à l’INSEAD (Management, Industrat, Markstrat, Executive Dev et Sigma
+                                Challenge) et à l’Université McGill (International Business), Pierre
+                                Gauthier a dirigé plusieurs activités au sein d’entreprises internationales
+                                impliquées dans l’énergie et les gaz industriels (Opérations, Ventes,
+                                Fabrication, Distribution et Ressources Humaines) pendant sa carrière. Il a
+                                aussi été très impliqué avec le développement de hautes technologies et a
+                                lancé plusieurs entreprises (intrapreneurship) au sein des groupes
+                                internationaux auxquels il a collaboré développant plusieurs millions de
+                                dollars de ventes profitables. Il a passé les dix dernières années à
+                                développer des activités visant la réduction de gaz à effet de serre dans
+                                les processus industriels, la mise en place des technologies requises pour
+                                utiliser l’hydrogène vert dans le transport et l’arrivée du biogaz dans
+                                notre portrait économique.
+                                <br><br>
+                                Il a aussi été le Président de l’Association Canadienne de l’Hydrogène
+                                (2004-2007), Président du Conseil pour l’Association Canadienne des pîles à
+                                combustibles et de l’hydrogène (2008 et 2009) et Co-Président de la World
+                                Hydrogen Energy Conference tenue à Toronto en 2012. Il travaille sur le
+                                Comité qui amène la WHTC (World Hydrogen Technologies Convention) à Montréal
+                                en 2021.
+
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="lucBio" tabindex="-1" aria-labelledby="lucBio" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Luc Vandewalle - Associé de EG4 Inc.</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Formé comme Ingénieur chimiste à l’Institut National Supérieur de Chimie Industrielle de
+                            Rouen (France), Luc Vandewalle a obtenu un DEA en Chimie Physique à l’université Pierre
+                            & Marie Curie à Paris. Il a exercé pendant 24 ans des fonctions de Directeur d‘usine,
+                            Directeur logistique Europe et Directeur Général de la zone Centre Europe pour le compte
+                            d’une entreprise américaine de production, et commercialisation de solutions décoratives
+                            de marques conçues pour les clients des secteurs commercial et résidentiel du monde
+                            entier, le plus important fabricant au monde de stratifié haute pression (Stratifié
+                            Formica). Luc Vandewalle a ensuite exercé dans l’Industrie du traitement de Surfaces des
+                            fonctions de développement des ventes dans le marché concurrentiel du revêtement poudre
+                            époxy et polyester et réalisé un projet d’optimisation industrielle pour des lignes de
+                            production permettant la fabrication de conduits métalliques de ventilation. <br><br>
+
+                            Luc Vandewalle a ensuite occupé dans la filiale du groupe Air Liquide, spécialisée dans
+                            la fabrication de technologies de soudage et coupage des fonctions de Directeur Achats
+                            et Supply Chain, et mis en place une organisation Supply Chain Corporate ainsi qu’un
+                            réseau logistique européen optimisé.<br><br>
+
+                            Il a ensuite consacré ses 10 dernières années dans le groupe Air Liquide au
+                            développement de la mobilité propre en Europe. Il a été nommé Directeur Général d’une
+                            “Joint-Venture” créée entre Air Liquide (France) et Plug Power Inc. société américaine
+                            basée à Latham (NY), avec comme objectif de développer le marché de la pile à
+                            combustible pour matériel de manutention en Europe.
+                            Il a poursuivi cette démarche par le développement de la mobilité propre Bio-méthane en
+                            Europe, et assuré le développement des activités Biogaz, et de la partie aval de la
+                            filière pour le monde du Transport. Luc Vandewalle a construit pour le Groupe Air
+                            Liquide un réseau de 25 stations Multi énergies en France dédié au Transport de
+                            Marchandises, délivrant des énergies alternatives au Diesel, du Bio-méthane comprimé,
+                            liquéfié, et de l’ azote, alternative cryogénique propre et silencieuse pour production
+                            de froid destinée au transport réfrigéré.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="yvesBio" tabindex="-1" aria-labelledby="yvesBio" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Yves Morin - Associé de EG4 Inc.</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Formé à l’École des Hautes Études Commerciales de Montréal (HEC) en Gestion
+                            d’Entreprises, Yves Morin a dirigé plusieurs équipes tout au long de sa carrière au sein
+                            d’Air Liquide Canada tant au niveau des gaz industriels que des activités de fabrication
+                            de produits pour le soudage. Il a aussi été très impliqué avec le développement de
+                            hautes technologies de fabrication (Intelligence artificielle, Système de vision pour
+                            inspection, Logistique, Distribution, Approvisionnement et Gestion des Ressources
+                            Humaines et Négociation de conventions collectives). Il a été reconnu Spécialiste d’Air
+                            Liquide Canada en 2013 pour son expertise et son implication dans plusieurs champs
+                            d’activité de l’entreprise. Lors de la vente des usines de fabrication de produits pour
+                            le soudage par Air Liquide Welding en 2017, il est devenu expert pour la nouvelle
+                            direction de Lincoln Electric dans le but d’assurer une transition souple et efficace.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container container-contact" id="contact">
+            <div class="row">
+                <h2 data-aos="fade-right">Intéressé de travailler avec EG4? <br>Contactez-nous</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <div>
+                        <p class="contact-sections">Téléphone</p>
+                        <p>+1 (514) 378-5037</p>
+                    </div>
+
+                    <div>
+                        <p class="contact-sections">Adresse</p>
+                        <p>Beloeil, Quebec, Canada.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-right">
+                    <p class="contact-sections">Courriel</p>
+                    <p>pgauthier.eg4@gmail.com <br>
+                        lvandewalle.eg4@gmail.com <br>
+                        ymorin.eg4@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid container-footer" data-aos="fade-left">
+        <div class="row align-items-end justify-content-end">
+            <div class="col"> </div>
+            <div class="col-sm-12 text-right">
+                <p>Créé par <a href="https://www.linkedin.com/in/ma%C3%ABlle-morin-30905a172/"
+                        target="blank">@MMDesign</a></p>
+                <p>© 2020 EG4 incorporation. Tous droits réservés.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
