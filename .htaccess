@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^$ /fr [L]
+RewriteRule ^(index\.html)?$ /store/ [L]
