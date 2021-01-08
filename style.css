@@ -1,4 +1,10 @@
-
+.sticky-profile {
+    position:sticky;
+    top:95px;
+    background:rgba(238, 237, 237);
+    padding-top:20px;
+    z-index:100;
+}
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #F4F4F4;
@@ -23,6 +29,15 @@ h2 {
 .navbar-light .navbar-nav .nav-link:hover {
     border-top:1px solid #85B039;
     color: #85B039;
+}
+
+.language-link {
+    color:#85B039;
+}
+
+.language-link:hover {
+    font-weight: 700;
+    color:#85B039;
 }
 
 .body-container {
@@ -191,11 +206,16 @@ h2 {
     margin-bottom: 30px;
 }
 
-.team-cards img {
+.team-cards .profile-pic {
     border-radius: 50%;
     object-fit: cover;
     width:150px;
     height:150px;
+}
+
+.team-cards .linkedin-link{
+    display: block;
+    margin-top:10px;
 }
 
 .btn-long-bio {
@@ -257,6 +277,16 @@ h2 {
     font-weight: 600;
     padding: 0;
     margin: 0;
+}
+
+.emails {
+    color:#85B039;
+    text-decoration: underline;
+}
+
+.emails:hover {
+    color:black;
+    text-decoration: underline;
 }
 
 
